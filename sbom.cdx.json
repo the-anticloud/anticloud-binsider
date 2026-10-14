@@ -1,0 +1,369 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:7dbafec1-2fd8-5335-ad82-342927855551",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T17:36:54Z",
+  "component": {
+   "type": "application",
+   "name": "BINSIDER",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/BINSIDER@83b357604d34",
+   "purl": "pkg:generic/anticloud/BINSIDER@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "NOASSERTION"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "null"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "name",
+   "version": "binsider",
+   "purl": "pkg:cargo/name@binsider",
+   "bom-ref": "cargo/name@binsider"
+  },
+  {
+   "type": "library",
+   "name": "version",
+   "version": "0.3.2",
+   "purl": "pkg:cargo/version@0.3.2",
+   "bom-ref": "cargo/version@0.3.2"
+  },
+  {
+   "type": "library",
+   "name": "description",
+   "version": "Analyze ELF binaries like a boss",
+   "purl": "pkg:cargo/description@Analyze ELF binaries like a boss",
+   "bom-ref": "cargo/description@Analyze ELF binaries like a boss"
+  },
+  {
+   "type": "library",
+   "name": "license",
+   "version": "MIT OR Apache-2.0",
+   "purl": "pkg:cargo/license@MIT OR Apache-2.0",
+   "bom-ref": "cargo/license@MIT OR Apache-2.0"
+  },
+  {
+   "type": "library",
+   "name": "readme",
+   "version": "README.md",
+   "purl": "pkg:cargo/readme@README.md",
+   "bom-ref": "cargo/readme@README.md"
+  },
+  {
+   "type": "library",
+   "name": "homepage",
+   "version": "https://binsider.dev",
+   "purl": "pkg:cargo/homepage@https://binsider.dev",
+   "bom-ref": "cargo/homepage@https://binsider.dev"
+  },
+  {
+   "type": "library",
+   "name": "repository",
+   "version": "https://github.com/orhun/binsider",
+   "purl": "pkg:cargo/repository@https://github.com/orhun/binsider",
+   "bom-ref": "cargo/repository@https://github.com/orhun/binsider"
+  },
+  {
+   "type": "library",
+   "name": "edition",
+   "version": "2021",
+   "purl": "pkg:cargo/edition@2021",
+   "bom-ref": "cargo/edition@2021"
+  },
+  {
+   "type": "library",
+   "name": "rust-version",
+   "version": "1.88.0",
+   "purl": "pkg:cargo/rust-version@1.88.0",
+   "bom-ref": "cargo/rust-version@1.88.0"
+  },
+  {
+   "type": "library",
+   "name": "ratatui",
+   "version": "0.30.0",
+   "purl": "pkg:cargo/ratatui@0.30.0",
+   "bom-ref": "cargo/ratatui@0.30.0"
+  },
+  {
+   "type": "library",
+   "name": "clap",
+   "version": "4.5.56",
+   "purl": "pkg:cargo/clap@4.5.56",
+   "bom-ref": "cargo/clap@4.5.56"
+  },
+  {
+   "type": "library",
+   "name": "thiserror",
+   "version": "2.0.18",
+   "purl": "pkg:cargo/thiserror@2.0.18",
+   "bom-ref": "cargo/thiserror@2.0.18"
+  },
+  {
+   "type": "library",
+   "name": "elf",
+   "version": "0.8.0",
+   "purl": "pkg:cargo/elf@0.8.0",
+   "bom-ref": "cargo/elf@0.8.0"
+  },
+  {
+   "type": "library",
+   "name": "rust-strings",
+   "version": "0.6.0",
+   "purl": "pkg:cargo/rust-strings@0.6.0",
+   "bom-ref": "cargo/rust-strings@0.6.0"
+  },
+  {
+   "type": "library",
+   "name": "heh",
+   "version": "0.6.3",
+   "purl": "pkg:cargo/heh@0.6.3",
+   "bom-ref": "cargo/heh@0.6.3"
+  },
+  {
+   "type": "library",
+   "name": "tui-input",
+   "version": "0.15.0",
+   "purl": "pkg:cargo/tui-input@0.15.0",
+   "bom-ref": "cargo/tui-input@0.15.0"
+  },
+  {
+   "type": "library",
+   "name": "tui-popup",
+   "version": "0.7.2",
+   "purl": "pkg:cargo/tui-popup@0.7.2",
+   "bom-ref": "cargo/tui-popup@0.7.2"
+  },
+  {
+   "type": "library",
+   "name": "unicode-width",
+   "version": "0.2.2",
+   "purl": "pkg:cargo/unicode-width@0.2.2",
+   "bom-ref": "cargo/unicode-width@0.2.2"
+  },
+  {
+   "type": "library",
+   "name": "textwrap",
+   "version": "0.16.2",
+   "purl": "pkg:cargo/textwrap@0.16.2",
+   "bom-ref": "cargo/textwrap@0.16.2"
+  },
+  {
+   "type": "library",
+   "name": "lurk-cli",
+   "version": "0.3.14",
+   "purl": "pkg:cargo/lurk-cli@0.3.14",
+   "bom-ref": "cargo/lurk-cli@0.3.14"
+  },
+  {
+   "type": "library",
+   "name": "serde",
+   "version": "1.0.228",
+   "purl": "pkg:cargo/serde@1.0.228",
+   "bom-ref": "cargo/serde@1.0.228"
+  },
+  {
+   "type": "library",
+   "name": "serde_derive",
+   "version": "1.0.228",
+   "purl": "pkg:cargo/serde_derive@1.0.228",
+   "bom-ref": "cargo/serde_derive@1.0.228"
+  },
+  {
+   "type": "library",
+   "name": "nix",
+   "version": "0.30.1",
+   "purl": "pkg:cargo/nix@0.30.1",
+   "bom-ref": "cargo/nix@0.30.1"
+  },
+  {
+   "type": "library",
+   "name": "ansi-to-tui",
+   "version": "8.0.1",
+   "purl": "pkg:cargo/ansi-to-tui@8.0.1",
+   "bom-ref": "cargo/ansi-to-tui@8.0.1"
+  },
+  {
+   "type": "library",
+   "name": "console",
+   "version": "0.16.2",
+   "purl": "pkg:cargo/console@0.16.2",
+   "bom-ref": "cargo/console@0.16.2"
+  },
+  {
+   "type": "library",
+   "name": "which",
+   "version": "8.0.0",
+   "purl": "pkg:cargo/which@8.0.0",
+   "bom-ref": "cargo/which@8.0.0"
+  },
+  {
+   "type": "library",
+   "name": "better-panic",
+   "version": "0.3.0",
+   "purl": "pkg:cargo/better-panic@0.3.0",
+   "bom-ref": "cargo/better-panic@0.3.0"
+  },
+  {
+   "type": "library",
+   "name": "tui-big-text",
+   "version": "0.8.1",
+   "purl": "pkg:cargo/tui-big-text@0.8.1",
+   "bom-ref": "cargo/tui-big-text@0.8.1"
+  },
+  {
+   "type": "library",
+   "name": "chrono",
+   "version": "0.4.43",
+   "purl": "pkg:cargo/chrono@0.4.43",
+   "bom-ref": "cargo/chrono@0.4.43"
+  },
+  {
+   "type": "library",
+   "name": "bytesize",
+   "version": "2.3.0",
+   "purl": "pkg:cargo/bytesize@2.3.0",
+   "bom-ref": "cargo/bytesize@2.3.0"
+  },
+  {
+   "type": "library",
+   "name": "sysinfo",
+   "version": "0.38.0",
+   "purl": "pkg:cargo/sysinfo@0.38.0",
+   "bom-ref": "cargo/sysinfo@0.38.0"
+  },
+  {
+   "type": "library",
+   "name": "webbrowser",
+   "version": "1.0.6",
+   "purl": "pkg:cargo/webbrowser@1.0.6",
+   "bom-ref": "cargo/webbrowser@1.0.6"
+  },
+  {
+   "type": "library",
+   "name": "lddtree",
+   "version": "0.4.0",
+   "purl": "pkg:cargo/lddtree@0.4.0",
+   "bom-ref": "cargo/lddtree@0.4.0"
+  },
+  {
+   "type": "library",
+   "name": "itertools",
+   "version": "0.14.0",
+   "purl": "pkg:cargo/itertools@0.14.0",
+   "bom-ref": "cargo/itertools@0.14.0"
+  },
+  {
+   "type": "library",
+   "name": "termbg",
+   "version": "0.6.2",
+   "purl": "pkg:cargo/termbg@0.6.2",
+   "bom-ref": "cargo/termbg@0.6.2"
+  },
+  {
+   "type": "library",
+   "name": "pretty_assertions",
+   "version": "1.4.1",
+   "purl": "pkg:cargo/pretty_assertions@1.4.1",
+   "bom-ref": "cargo/pretty_assertions@1.4.1"
+  },
+  {
+   "type": "library",
+   "name": "panic",
+   "version": "abort",
+   "purl": "pkg:cargo/panic@abort",
+   "bom-ref": "cargo/panic@abort"
+  },
+  {
+   "type": "library",
+   "name": "@astrojs/check",
+   "version": "^0.9.9",
+   "purl": "pkg:npm/@astrojs/check@^0.9.9",
+   "bom-ref": "npm/@astrojs/check@^0.9.9"
+  },
+  {
+   "type": "library",
+   "name": "@astrojs/starlight",
+   "version": "^0.25.5",
+   "purl": "pkg:npm/@astrojs/starlight@^0.25.5",
+   "bom-ref": "npm/@astrojs/starlight@^0.25.5"
+  },
+  {
+   "type": "library",
+   "name": "@astrojs/starlight-tailwind",
+   "version": "^2.0.3",
+   "purl": "pkg:npm/@astrojs/starlight-tailwind@^2.0.3",
+   "bom-ref": "npm/@astrojs/starlight-tailwind@^2.0.3"
+  },
+  {
+   "type": "library",
+   "name": "@astrojs/tailwind",
+   "version": "^5.1.5",
+   "purl": "pkg:npm/@astrojs/tailwind@^5.1.5",
+   "bom-ref": "npm/@astrojs/tailwind@^5.1.5"
+  },
+  {
+   "type": "library",
+   "name": "@fontsource/dejavu-sans",
+   "version": "^5.2.5",
+   "purl": "pkg:npm/@fontsource/dejavu-sans@^5.2.5",
+   "bom-ref": "npm/@fontsource/dejavu-sans@^5.2.5"
+  },
+  {
+   "type": "library",
+   "name": "astro",
+   "version": "^4.16.19",
+   "purl": "pkg:npm/astro@^4.16.19",
+   "bom-ref": "npm/astro@^4.16.19"
+  },
+  {
+   "type": "library",
+   "name": "nanostores",
+   "version": "^0.11.4",
+   "purl": "pkg:npm/nanostores@^0.11.4",
+   "bom-ref": "npm/nanostores@^0.11.4"
+  },
+  {
+   "type": "library",
+   "name": "sharp",
+   "version": "^0.32.6",
+   "purl": "pkg:npm/sharp@^0.32.6",
+   "bom-ref": "npm/sharp@^0.32.6"
+  },
+  {
+   "type": "library",
+   "name": "tailwindcss",
+   "version": "^3.4.19",
+   "purl": "pkg:npm/tailwindcss@^3.4.19",
+   "bom-ref": "npm/tailwindcss@^3.4.19"
+  },
+  {
+   "type": "library",
+   "name": "typescript",
+   "version": "^5.9.3",
+   "purl": "pkg:npm/typescript@^5.9.3",
+   "bom-ref": "npm/typescript@^5.9.3"
+  }
+ ],
+ "sha_unverified": true
+}
